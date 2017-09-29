@@ -67,11 +67,11 @@ void init_ergodox(void)
 
 void ergodox_blink_all_leds(void)
 {
-    ergodox_led_all_off();
-    ergodox_led_all_set(LED_BRIGHTNESS_HI);
-    ergodox_led_all_on();
-    _delay_ms(333);
-    ergodox_led_all_off();
+    // ergodox_led_all_off();
+    // ergodox_led_all_set(LED_BRIGHTNESS_HI);
+    // ergodox_led_all_on();
+    // _delay_ms(333);
+    // ergodox_led_all_off();
 }
 
 uint8_t init_mcp23018(void) {
